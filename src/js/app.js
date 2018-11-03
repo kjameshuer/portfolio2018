@@ -12,5 +12,5 @@ window.jQuery = require('jquery');
 window.lightbox = require('lightbox2');
 window.Tether = require('./tether.min.js');
 require('./foundation.min.js');
-//require('./mo-js.js');
+require('./smooth-scroll.min.js');
 require('./main.js');
