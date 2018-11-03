@@ -7,5 +7,5 @@ require('../scss/styles.scss');
 // JS
 window.jQuery = require('jquery');
 require('./foundation.min.js');
-require('./smooth-scroll.min.js');
+window.SmoothScroll = require('./smooth-scroll.min.js');
 require('./main.js');
