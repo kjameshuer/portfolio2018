@@ -8,9 +8,6 @@ import Project3 from './project-3';
   
   $('body').removeClass('no-js');
   $(document).foundation();
-  if (!(/*@cc_on!@*/false || !!document.documentMode)){
-    new SmoothScroll('a[href*="#"]');
-  }
   if ( !(typeof NodeList.prototype.forEach === "function") ){
     NodeList.prototype.forEach = Array.prototype.forEach;
   }

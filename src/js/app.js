@@ -1,11 +1,10 @@
-// CSS
-
-require('lightbox2/dist/css/lightbox.min.css')
+//CSS
 require('../css/main.css');
 require('../scss/styles.scss');
 
 // JS
 window.jQuery = require('jquery');
-require('./foundation.min.js');
-window.SmoothScroll = require('./smooth-scroll.min.js');
+require('foundation-sites/dist/js/foundation.min.js');
+require('foundation-sites/js/foundation.orbit.js');
+require('mo-js')
 require('./main.js');
